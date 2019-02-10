@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.uber {
+    font-weight: 700;
+    width: 11.54px;
+    height: 12.02px;
+    color: black;
+    margin-left: 81.38px;
+    letter-spacing: 2.3px;
+}
+
+.eats {
+    color: green;
+    letter-spacing: 2.3px;
+}
+.button1 {
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    width: 65px;
+    height: 40px;
+    line-height: 24px;
+    font-size: 16px;
+    color: black;
+    background: white;
+    /* padding: 8px; */
+    margin-left: 122px;
+}
+
+.button2 {
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    width: 80px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    color: #1D1D1D;
+    background-color: white;
+    margin-left: 92px;
+}
+
+.button3 {
+    background: #262626;
+    color: #FFFFFF;
+    border-radius: 2px;
+    width: 80px;
+    height: 40px;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.adress {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    width: 292px;
+    height: 40px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #1D1D1D;
+    text-align: center;
+    /* padding: 8px; */
+    margin-left: 9px;
+}
+
+.p1 {
+    display: inline-block;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 16px; 
+    color: #626262;
+    height: 19px;
+    margin-left: 9px;
+}
+
+.fa-map-marker-alt{
+    width: 12px;
+    height: 14.79px;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+.fa-shopping-bag {
+    margin-left: 27px;
+}
+
+.fa-search{
+    width: 22px;
+    height: 21.9px;
+    margin-left: 81px;
+}
+
+.search {
+    height: 79px;
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    height: 1px;
+    width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #757575;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.p3 {
+    line-height: 24px;
+    font-size: 16px;
+    color: #626262;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 223px;
+}
+
+h3 {
+    margin-left: 82px;
+}
+
+.main {
+    width: 1124px;
+    height: 1500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.main-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container {
+    max-width: 964px;
+}
+
+.main-card {
+    width: 312;
+}
+
+.dish {
+    width: 100%;
+    height: 256px;
+    object-fit: cover
+}
+
+.footer { 
+    position: relative; 
+    width: 1124px; 
+    height: 542px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    background-color: #262626; 
+    padding-top: 56px; 
+}
+
+.footer-container { 
+    width: 964px; 
+    margin-right: auto; 
+    margin-left: auto;  
+} 
+
+.footer-logo { 
+    text-transform: uppercase; 
+    display: inline-block; 
+    letter-spacing: 8px; 
+} 
+
+.footer-logo__first { 
+    color: #ffffff; 
+    font-weight: 700; 
+    font-size: 22px; 
+}
+
+.footer-logo__second { 
+    color: #57AD56; 
+    font-weight: 400; 
+    margin-left: -4px; 
+    font-size: 22px; 
+}
+
+.footer-line { 
+    margin-top: 36px; 
+    background: #FFFFFF; 
+    mix-blend-mode: normal; 
+    opacity: 0.4; 
+}
+
+.footer-block { 
+    color: #FFFFFF; 
+    padding-top: 32px; 
+}
+
+.footer-block-container { 
+    width: 964px; 
+}
+
+.footer-span { 
+    color: #57AD56; 
+}
+
+.col-lg-4 a { 
+    font-size: 14px; 
+    display: block; 
+    text-decoration: none; 
+    color: #ffffff; 
+}
+
+.footer-add { 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 40px; 
+    padding-bottom: 10px; 
+}
+
+.footer-add__img { 
+    width: 136px; 
+    height: 40px; 
+}
+
+.footer-add__appstore { 
+    width: 100%; 
+    object-fit: cover; 
+    margin-right: 40px; 
+}
+
+.footer-add__play { 
+    width: 100%; 
+    object-fit: cover; 
+    margin-left: 40px; 
+} 
+
+.footer-terms { 
+    padding-top: 40px; 
+    font-size: 12px 
+}
+
+.footer-terms__anchor { 
+    text-decoration: none; 
+    color: #ffffff; 
+}
